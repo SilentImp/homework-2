@@ -1,0 +1,32 @@
+{
+  "name": "hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "CI=true jest --reporters=default --reporters=jest-junit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SilentImp/homework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SilentImp/homework/issues"
+  },
+  "homepage": "https://github.com/SilentImp/homework#readme",
+  "dependencies": {
+    "cypress": "^12.7.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "jest-github-actions-reporter": "^1.0.3",
+    "jest-junit": "^15.0.0",
+    "jest-summary-reporter": "^0.0.2"
+  }
+}
