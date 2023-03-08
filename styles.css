@@ -1,0 +1,173 @@
+.container {
+    width: 100%;
+}
+
+
+.hero {
+    background: url("assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: Raleway;
+    font-size: 38px;
+    font-weight: 700;
+    font-style: bold;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
+}
+
+.hero h2 {
+    margin: 0;
+    margin-left: 14.583%;
+    padding-top: 10.416%;
+}
+
+.hero h1 {
+    margin: 0;
+    margin-left: 14.583%;
+    padding-top: 2.083%;
+    padding-bottom: 19.7916%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.grid-container h2 {
+    color: #000;
+    padding-top: 0;
+    margin-left: 50px;
+    padding-bottom: 70px;
+}
+
+.grid-container h3 {
+    padding-top: 50px;
+    margin-left: 50px;
+    padding-bottom: 30px;
+}
+
+.grid-container p {
+    margin-left: 50px;
+}
+
+.card:hover {
+    background-color: blue;
+}
+
+.card:hover p {
+    color: #fff;  
+}
+
+.card:hover h2 {
+    color: #fff;  
+}
+
+.card:hover h3 {
+    color: #fff;  
+}
+
+.card img {
+    float: right;
+    margin-bottom: 0;
+}
+
+.select img {
+    padding-top: 52px;
+}
+
+.train img {
+    padding-top: 52px;
+}
+
+.comms img {
+    padding-top: 28px;
+}
+
+.work img {
+    padding-top: 52px;
+}
+
+@media screen and (min-width: 320px) and (max-width:480px) {
+
+    .container {
+        max-width: 480px;
+    }
+
+    .hero {
+    background-position: center;
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 3fr));
+    }
+
+    .grid-container h2 {
+        color: #000;
+        padding-top: 0;
+        margin-left: 10px;
+        padding-bottom: 25px;
+    }
+    
+    .grid-container h3 {
+        padding-top: 25px;
+        margin-left: 10px;
+        padding-bottom: 10px;
+    }
+
+    .grid-container p {
+        margin-left: 10px;
+        padding-bottom: 120px;
+    }
+
+    .grid-container br {
+        display: none;
+    }
+    
+    .card {
+        position: relative;
+    }
+
+    img {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+    }
+}
